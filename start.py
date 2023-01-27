@@ -15,7 +15,7 @@ print(banner)
 
 spotify_hesap= "https://open.spotify.com/user/......." #Kullanıcı Adınızı Noktalı Yeri Silip Yapıştırın.
 lock = threading.Lock()
-threads = int(input("\nAynı Anda Kaç Pencere Çalışsın [ Default :50 ] :"))
+threads = int(input("\nKullanıcı adı girin[ swantex ] :"))
 counter = 0
 
 def safe_print(arg):
